@@ -1,0 +1,19 @@
+class  Flower{
+	String name;
+	String colour;
+	int pittels;
+	public Flower(){
+		this.name="rose";
+		this.colour="red";
+		this.pittels=15;
+	}
+	public Flower(String name,String colour,int pittels){
+		this.name=name;
+		this.colour=colour;
+		this.pittels=pittels;
+	}
+	public void fragrance(){
+		System.out.println("your flower is:"+this.name+" and colour is:"+this.colour);
+		System.out.println("it has a "+this.pittels+" pittels");
+	}
+}

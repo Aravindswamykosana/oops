@@ -1,0 +1,6 @@
+class  AreaOfCircle{
+	public static void main(String[] args){
+		Circle1 c1=new Circle1(2);
+		c1.area();
+	}
+}

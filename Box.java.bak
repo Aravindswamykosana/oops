@@ -1,0 +1,19 @@
+class  Box1{
+	int s;
+	double length;
+	double breadth;
+	public Box(int s,double length,double breadth){
+		this.s=s;
+		this.length=length;
+		this.breadth=breadth;
+	}
+	public void displaySquare(){
+		System.out.println("your 2d object is::"+this.s*this.s);
+	}
+	public void displayRectangle(){
+		System.out.println("your 2d object is::"+this.length*this.breadth);
+	}
+	public void displaycube(){
+		System.out.println("your 3d object is::"+6*this.s*this.s);  //volume a*3 and surface area=6a*3;
+	}
+}
